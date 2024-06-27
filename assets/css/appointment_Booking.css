@@ -1,0 +1,137 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 20px;
+}
+
+#fg {
+  display: none;
+}
+
+h2,
+p {
+  color: #495057;
+  text-align: center;
+}
+
+section div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  color: #495057;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+button {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+input[type="radio"] {
+  margin-top: -3px;
+}
+
+input[readonly] {
+  background-color: #e9ecef;
+  /* To indicate that the field is read-only */
+}
+
+/* Additional styles */
+input[type="radio"]+label {
+  display: inline-block;
+  /* Aligns radio buttons with their labels */
+  margin-right: 10px;
+  /* Spacing between radio button options */
+}
+
+select {
+  display: block;
+  /* Ensures select dropdown takes full width */
+  appearance: none;
+  /* Removes default styling of select dropdown */
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg width="12" height="12" viewBox="0 ...');
+  /* Custom dropdown arrow */
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+}
+
+
+.qr_code {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  /* Limit the width for readability */
+}
+
+.get_qr,
+.im {
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* Center images horizontally */
+}
+
+.id {
+  margin: 10px auto;
+  padding: 8px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.download_now {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download_now:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+}
+
+.nottes {
+  color: #CCCCCC;
+  text-align: center;
+  font-size: 14px;
+}
